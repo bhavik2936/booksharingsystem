@@ -38,9 +38,9 @@ if ($data != null)
         session_start();
         $_SESSION['user_email'] = $row['email_id'];
         if(!empty($row['display_picture'])){
-            $file_dir = 'http://52.236.33.218/booksharingsystem/images/' . $row['email_id'] . '/' . $row['display_picture'];
+            $file_dir = 'https://booksharingsystem.000webhostapp.com/images/' . $row['email_id'] . '/' . $row['display_picture'];
         } else {
-            $file_dir = 'http://52.236.33.218/booksharingsystem/images/person.png';
+            $file_dir = 'https://booksharingsystem.000webhostapp.com/images/person.png';
         }
         $row['display_picture'] = $file_dir;
         $row['is_error'] = false;

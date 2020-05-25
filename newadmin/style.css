@@ -1,0 +1,11 @@
+:root {
+  --main-theme-color-light:  #3d3d3d;
+}
+
+.nav-link-active {
+  background-color: var(--main-theme-color-light);
+}
+/*.a:hover{*/
+    
+/*  color: #000000; */
+/*}*/
